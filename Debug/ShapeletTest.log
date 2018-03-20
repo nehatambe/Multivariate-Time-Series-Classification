@@ -1,0 +1,15 @@
+﻿  xyMatrix.cpp
+  timeSeries.cpp
+  orderLine.cpp
+  main.cpp
+main.cpp(307): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type '__int64'
+  main.cpp(307): note: consider using '%lld' in the format string
+  main.cpp(307): note: consider using '%I64d' in the format string
+main.cpp(434): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+main.cpp(494): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(89): note: see declaration of 'strcat'
+  Generating Code...
+  LINK : C:\FinalProject\Test\shapelet\Debug\ShapeletTest.dll not found or not built by the last incremental link; performing full link
+     Creating library C:\FinalProject\Test\shapelet\Debug\ShapeletTest.lib and object C:\FinalProject\Test\shapelet\Debug\ShapeletTest.exp
+  ShapeletTest.vcxproj -> C:\FinalProject\Test\shapelet\Debug\ShapeletTest.dll
