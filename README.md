@@ -10,7 +10,7 @@ You will need the following things properly installed on your computer.
 * [Visual Studio](https://www.visualstudio.com/downloads/)
 
 ## Python libraries
-Install following libraries 
+Install libraries - 
 Pandas,
 Ctypes,
 CSV,
