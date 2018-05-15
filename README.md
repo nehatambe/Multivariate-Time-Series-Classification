@@ -38,6 +38,6 @@ random
 * Run following command to classify data from the test dataset data.
     `` python classification.py
     ``
-
-
+* To update the extraction algorithm(C++ code), open 'ShapeletTest.vcxproj' file in Microsoft Visual studio. Build the code to create 'ShapeletTest.dll'. 
+* To update the classification code, open 'classify.vcxproj' file in Microsoft Visual studio. Build the code to create 'classify.dll'.
 
