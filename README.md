@@ -27,14 +27,14 @@ random
 * Update 'train_file_path', 'test_file_path' variables from the script 'data-processing-list.py' with train and test file path.
 * Go to TimeSeriesClassification folder. 
 * Run following command to preprocess data.
-    python data-processing-list.py
+    ``python data-processing-list.py``
 * Update 'train_file_path' and 'tree_file_path' variables from the script 'extract-shapelet.py' with train, tree(Intermediate file) file path. Also, update the path to 'ShapeletTest.dll'.
 * You can also update parameters - minLen, maxLen, stepSize, noOfClasses.
 * Run following command to extract shapelets from the train dataset data.
-    python extract-shapelet.py
+    ``python extract-shapelet.py``
 * Update 'test_file_path' and 'tree_file_path' variables from the script 'classification.py' with test, tree(Intermediate file) file path. Also, update the path to 'classify.dll'.
 * Run following command to classify data from the test dataset data.
-    python classification.py
+    ``python classification.py``
 
 
 
